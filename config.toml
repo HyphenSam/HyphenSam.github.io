@@ -6,7 +6,7 @@ title = "HyphenSam"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "beautifulhugo"
+theme = "hugo-academic"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
