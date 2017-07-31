@@ -2,7 +2,7 @@ baseurl = "https://hyphensam.gitlab.io/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
-title = "Beautiful Hugo"
+title = "HyphenSam"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
