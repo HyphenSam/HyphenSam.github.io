@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
 html {
-  font-family: 'Raleway', 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Navigation bar text */
 .navbar-default {
-  font-family: inherit, sans-serif !important;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: inherit, sans-serif !important;
+  font-family: 'Raleway', sans-serif;
 }
