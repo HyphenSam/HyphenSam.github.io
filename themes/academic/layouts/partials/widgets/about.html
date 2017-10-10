@@ -61,14 +61,16 @@
       {{ with $page.Params.education }}
       <div class="col-sm-7">
         <h3>{{ i18n "education" | markdownify }}</h3>
-        <ul class="ul-edu fa-ul">
+        <ul class="ul-interests"> <!--- Class default: "ul-edu fa-ul" -->
           {{ range .courses }}
-          <li>
+          <li>{{ .course }}<!---
             <i class="fa-li fa fa-graduation-cap"></i>
             <div class="description">
               <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
               <p class="institution">{{ .institution }}</p>
             </div>
+          Since I don't understand this theme too much, I'll have to do a hacky workaround.
+          I might plan on making my own theme so I don't have to code like this lol-->
           </li>
           {{ end }}
         </ul>

@@ -29,10 +29,16 @@
 # About widget
 
 - id: interests
-  translation: Interests
+  translation: Languages # Default: interests
 
 - id: education
-  translation: Education
+  translation: Interests # Default: education
+  # Now, you may be asking: Why did I swap the interests list to the education id?
+  # The answer: I want the interests list to be on the right side.
+  # Sure I could just swap the columns, but I'm a bit too lazy and I just want this working for now.
+  # This theme is an absolute headache to get what I want. I don't really care about elegancy. If I wanted that, I'd make my own theme which I do plan on doing.
+  # But for now, I just want this site up and focus on learning programming, instead of spending all my time on an empty site.
+  # Are comments supposed to be this long?
 
 # Publications widget
 

@@ -9,34 +9,41 @@ widget = "about"
 # Order that this section will appear in.
 weight = 1
 
-# List your academic interests.
+
+# Change structure at \themes\academic\layouts\partials\widgets\about.html
+# Change text at \themes\academic\i18n\en.yaml
+
+# Programming languages I know.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Python",
+    "Yeah that's all I know so far"
   ]
 
-# List your qualifications (such as academic degrees).
+# Interests.
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "Video Games"
+  institution = "Massachusetts Institute of Gameology"
+  year = 0000
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
+  course = "Anime"
+  institution = "Massachusetts Institute of Animenology"
+  year = 0000
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
+  course = "Memes"
+  institution = "Massachusetts Institute of Memeology"
+  year = 0000
+
+[[education.courses]] 
+  course = "Anime memes"
+  institution = "Massachusetts Institute of Animememememeology"
+  year = 0000
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+My name is Sam. My pastimes include writing software, creating video games, and enjoying long walks at the beach.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I'm also slightly obsessed with anime and flat chests.
