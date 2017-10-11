@@ -39,7 +39,7 @@
   # This theme is an absolute headache to get what I want. I don't really care about elegancy. If I wanted that, I'd make my own theme which I do plan on doing.
   # But for now, I just want this site up and focus on learning programming, instead of spending all my time on an empty site.
   # Are comments supposed to be this long?
-
+  # Swapping the columns doesn't seem to do anything ¯\_(ツ)_/¯
 # Publications widget
 
 - id: more_publications
