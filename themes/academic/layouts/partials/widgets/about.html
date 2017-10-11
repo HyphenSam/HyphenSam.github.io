@@ -61,17 +61,19 @@
       {{ with $page.Params.education }}
       <div class="col-sm-7">
         <h3>{{ i18n "education" | markdownify }}</h3>
-        <ul class="ul-interests"> <!--- Class default: "ul-edu fa-ul" -->
-          {{ range .courses }}
-          <li>{{ .course }}<!---
-            <i class="fa-li fa fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .institution }}</p>
-            </div>
-          Since I don't understand this theme too much, I'll have to do a hacky workaround.
-          I might plan on making my own theme so I don't have to code like this lol-->
-          </li>
+        <ul class="ul-interests"> <!-- Class default: "ul-edu fa-ul" -->
+          {{ range .education }} <!--  Default:  {{ range .courses }} -->
+          <li>{{ . }}</li> <!-- Default: {{ .course }} -->
+          <!-- Rest of this code is not needed. Place inside <li> tag.
+          <i class="fa-li fa fa-graduation-cap"></i>
+          <div class="description">
+            <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+            <p class="institution">{{ .institution }}</p>
+          </div>
+        Since I don't understand this theme too much, I'll have to do a hacky workaround.
+        I might plan on making my own theme so I don't have to code like this lol
+        Edit: Took a shower and found a slightly more elegant way to convert the courses list to a more normal list.
+        This means I don't have to type [[education.courses]] courses = "etc" -->
           {{ end }}
         </ul>
       </div>

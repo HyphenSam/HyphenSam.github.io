@@ -21,25 +21,13 @@ weight = 1
   ]
 
 # Interests.
-[[education.courses]]
-  course = "Video Games"
-  institution = "Massachusetts Institute of Gameology"
-  year = 0000
-
-[[education.courses]]
-  course = "Anime"
-  institution = "Massachusetts Institute of Animenology"
-  year = 0000
-
-[[education.courses]]
-  course = "Memes"
-  institution = "Massachusetts Institute of Memeology"
-  year = 0000
-
-[[education.courses]] 
-  course = "Anime memes"
-  institution = "Massachusetts Institute of Animememememeology"
-  year = 0000
+[education]
+  education = [
+    "Video games",
+    "Anime",
+    "Memes",
+    "Anime memes"
+  ]
 +++
 
 # Biography
