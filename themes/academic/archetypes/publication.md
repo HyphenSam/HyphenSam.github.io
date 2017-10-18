@@ -1,7 +1,4 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
-date = {{ .Date }}
-draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = [""]
@@ -39,17 +36,13 @@ selected = false
 
 # Links (optional)
 url_pdf = ""
-url_preprint = ""
 url_code = ""
 url_dataset = ""
 url_project = ""
 url_slides = ""
 url_video = ""
-url_poster = ""
-url_source = ""
 
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
+# Optional featured image (relative to `static/img/` folder).
 [header]
 image = ""
 caption = ""
