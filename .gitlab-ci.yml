@@ -1,8 +1,4 @@
-image: alpine
-
-variables:
-  HUGO_VERSION: '0.30'
-  HUGO_SHA: 'c9cf515067f396807161466c9968f10e61f762f49d766215db37b01402ca7ca7'
+image: registry.gitlab.com/pages/hugo:0.27.1
 
 before_script:
   - apk update && apk add openssl ca-certificates
