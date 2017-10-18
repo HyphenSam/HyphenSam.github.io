@@ -1,7 +1,7 @@
 image: alpine
 
 variables:
-  HUGO_VERSION: '0.23'
+  HUGO_VERSION: '0.30'
   HUGO_SHA: 'c9cf515067f396807161466c9968f10e61f762f49d766215db37b01402ca7ca7'
 
 before_script:
