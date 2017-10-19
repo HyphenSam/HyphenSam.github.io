@@ -2,7 +2,7 @@ image: alpine
 
 variables:
   HUGO_VERSION: '0.30'
-  HUGO_SHA: 'aa944a4c470e8bc9996879854fb0290896e7e42ec13d24f769a9f541cd783822'
+  HUGO_SHA: '1c4dbbc4fb38577e7100129ded51984ea1795294370fded876b71698f64f8eae'
 
 before_script:
   - apk update && apk add openssl ca-certificates
