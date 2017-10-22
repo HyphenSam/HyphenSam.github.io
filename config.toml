@@ -1,4 +1,4 @@
-baseurl = "https://hyphensam.gitlab.io/"  # End your URL with a `/` trailing slash.
+baseurl = "https://hyphensam.com/"  # End your URL with a `/` trailing slash.
 title = "HyphenSam"
 copyright = "&copy; 2017 HyphenSam"
 theme = "academic"
