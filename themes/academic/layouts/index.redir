@@ -1,0 +1,8 @@
+# Netlify redirects. See https://www.netlify.com/docs/redirects/
+{{  range $p := .Site.Pages -}}
+{{ range .Aliases }}
+{{  . | printf "%-35s" }}	{{ $p.RelPermalink -}}
+{{ end -}}
+{{- end -}}
+http://blog.hyphensam.com/* https://www.hyphensam.com/blog/:splat 301!
+https://blog.hyphensam.com/* https://www.hyphensam.com/blog/:splat 301!

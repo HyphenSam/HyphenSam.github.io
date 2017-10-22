@@ -19,7 +19,24 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [outputs]
-  home = [ "HTML", "CSS" ]
+  home = [ "HTML", "CSS", "REDIR", "HEADERS" ]
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+suffix = ""
+delimiter = ""
+
+[outputFormats]
+[outputFormats.REDIR]
+mediatype = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
 
 # Configure BlackFriday Markdown rendering.
 #   See: https://gohugo.io/readfiles/bfconfig/
