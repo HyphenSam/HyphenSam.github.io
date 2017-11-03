@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/hyphensam
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hyphensam.com
+  * I am hyphensam (https://keybase.io/hyphensam) on keybase.
+  * I have a public key with fingerprint F87A 01FD 74B6 4C9D 380C  AAB9 E6EE EB28 86F1 2EBA
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101402154f2cf1e8251875e8974c7a9afc145b909236dcdd290400115727bf4b7be0a",
+      "fingerprint": "f87a01fd74b64c9d380caab9e6eeeb2886f12eba",
+      "host": "keybase.io",
+      "key_id": "e6eeeb2886f12eba",
+      "kid": "0101402154f2cf1e8251875e8974c7a9afc145b909236dcdd290400115727bf4b7be0a",
+      "uid": "3b5f23ea3a4148c11d7374e3dbc30919",
+      "username": "hyphensam"
+    },
+    "service": {
+      "hostname": "hyphensam.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1509716337,
+  "expire_in": 157680000,
+  "prev": "7167994314efae976d82540682aae3b69447f3749ebd898ae3a3391fe06c9697",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMImAnicrZJrSBVBGIaPWWmSoEQUGQVrUoHZzu6cnZ1DmKRE95LKsKTD7O7sOWu5
+ezy76jExBIUuoJRdoKIgEulKNwuJDK1DeCmxIoywNKQiy+hPkaLYrNSf6GfzZ5hv
+nved9/uYaGKsJyGmbn7Q7I72L4npajtV4skfKy6u4BRLK+d8FdweOrnRvRq1Hf8e
+Q+N8HA94AHkBeKEuqDqgsuAFMvJSGSOoIoKJrgLoVTCPBVHSVE0TMA95HgAvEpCi
+QwUplCdcOqcbZoCGQ2HDdJitLiPCA11DUJGgijVR5lVCFEwlSqkiyLKkA4EqrjBo
+2a6ChVOITTMMi9XYwT8Z7x/8f85dMmknKl5dECkRCQRQVgHQkIggFTVFFXkMsAva
+NGySIsroYHkoSE2bFHGV6RwrlxoqdSfrtvI3kqFaRUwdCluOpVp73SvHCdk+V+qU
+h1y2jCr+3y5+xTA1NkmmKKVh27BMzgcYqTqGawu8PEZAEkWUztFIyAhTv+ESXiTJ
+PFvuO7SUWTIIYQxFAKlOKEaSxgYEeUkWCKGiImEIkc46xFTRZCyzGhFFDHTKSyqW
+MOLcvopNi/PJLCYJMEvbCJjEKQlTrvJha8FUT0yCZ/q0Ke4P8yTMSPrz74x58Z76
+kSdz8diywcQBcZZ6rf+qZ/H9zs7DhYuWd9/Jf+pvchr6Us6toy0jVWk3hsdRU/WJ
+2NYXF572xO18l7pr+HLzz0hy7/q2mqGuixkTVe25sWe1xhmpaq+dFOwp+FA7R/h+
+L/poQbh0YN++lduzramFvXNMu2Zz0cTE6IaPzzuiq4/crs36Wl89nvYgB2XO/rwq
+4Kctr+Qv9d0vjw11PLlyJrtszIkekAczm6t2eQqSL0Xad7cvzTsenzWYCVPwsgcL
+B16frOu5tWk0bmN0qPFNf9r5lNaOnNP7t0Wq5rb0ZR69++Nt3s3H39q2dOzIzS5O
+XDFz7bP25suRrZ+uvz90sGFNfM8vOSVKgg==
+=SP7M
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hyphensam
+
+==================================================================
