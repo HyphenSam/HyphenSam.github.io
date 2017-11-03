@@ -19,7 +19,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [outputs]
-  home = [ "HTML", "CSS", "REDIR", "HEADERS", "TXT" ]
+  home = [ "HTML", "CSS", "REDIR", "HEADERS" ]
 
 [mediaTypes]
 [mediaTypes."text/netlify"]
