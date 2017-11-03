@@ -19,7 +19,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [outputs]
-  home = [ "HTML", "CSS", "REDIR", "HEADERS" ]
+  home = [ "HTML", "CSS", "REDIR", "HEADERS", "TXT" ]
 
 [mediaTypes]
 [mediaTypes."text/netlify"]
@@ -72,11 +72,11 @@ notAlternative = true
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
-  keybase = ""
+  keybase = "HyphenSam"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = ""
+  logo = "logo.png"
 
   # Enable Google Maps by entering your API key, latitude, and longitude.
   #   Get your API key: https://developers.google.com/maps/documentation/javascript/get-api-key
