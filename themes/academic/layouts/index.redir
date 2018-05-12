@@ -4,5 +4,3 @@
 {{  . | printf "%-35s" }}	{{ $p.RelPermalink -}}
 {{ end -}}
 {{- end -}}
-http://hyphensam.com/* https://hyphensam.com/:splat 301!
-https://hyphensam.com/* https://hyphensam.com/:splat 301!
